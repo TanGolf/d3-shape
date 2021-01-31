@@ -30,6 +30,7 @@ export default function(x0, y0, y1) {
     if (context == null) output = curve(buffer = path());
 
     for (i = 0; i <= n; ++i) {
+      console.log(i);
       if (!(i < n && defined(d = data[i], i, data)) === defined0) {
         if (defined0 = !defined0) {
           j = i;
